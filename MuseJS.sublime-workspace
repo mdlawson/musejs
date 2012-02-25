@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"reward",
+				"rewardFile"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"Reset",
+				"RESET"
+			],
+			[
+				"ga",
+				"gapRange"
+			],
+			[
+				"val",
+				"ValueError"
+			],
+			[
+				"merit",
+				"meritsMerged"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"with",
+				"width"
+			],
+			[
+				"r",
+				"rp	<rp>"
+			],
+			[
+				"c2",
+				"c2"
+			],
+			[
+				"pl",
+				"pluginDB"
+			],
+			[
+				"plugin",
+				"plugin"
+			],
+			[
+				"ur",
+				"urlopen"
+			],
+			[
+				"csv",
+				"csv"
+			],
+			[
+				"logi",
+				"loginStaff"
+			],
+			[
+				"a",
+				"a: <a href=\"mailto:\">"
+			],
+			[
+				"link",
+				"link: link - stylesheet"
+			],
+			[
+				"html",
+				"html: html"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "4p2;p96Gnz06\n\n\n IP: 188.227.180.199\n Subnet Mask: 255.255.255.192\n Gateway: 188.227.180.193\n\n DNS: 8.8.8.8 and 8.8.4.4\n\n> Radon: AshleyW as username\n> Radon: and\n> Radon: WilliamsonAshley6404\n",
+			"settings":
+			{
+				"buffer_size": 192,
+				"line_ending": "Windows",
+				"name": "4p2;p96Gnz06"
+			}
+		},
+		{
+			"contents": "$(function(){\n	window.\n})",
+			"file": "public/javascripts/main.js",
+			"file_size": 0,
+			"file_write_time": 129746473925992876,
+			"settings":
+			{
+				"buffer_size": 25,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<html>\n<head>\n	<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/underscore.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/backbone.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/main.js\"></script>\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/main.css\">\n	<title>MuseJS</title>\n</head>\n<body>\n	<div id=\"content\">\n		<div id=\"albumsView\"></div>\n	</div>\n</body>\n</html>",
+			"file": "public/index.html",
+			"file_size": 0,
+			"file_write_time": 129746461325801322,
+			"settings":
+			{
+				"buffer_size": 520,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/JSHint/jshint.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository Channel"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"pacma",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 131.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/CS/merits.py",
+		"/C/VAIOBIOS/R1031H4/platform.ini",
+		"/C/VAIOBIOS/R2048H4/platform.ini",
+		"/C/Users/Michael/AppData/Local/Temp/7zOF14C.tmp/srcds",
+		"/C/Users/Michael/AppData/Local/Temp/7zO1938.tmp/srcds-launcher",
+		"/C/Users/Michael/AppData/Local/Temp/7zOEC6C.tmp/srcds-launcher",
+		"/C/Users/Michael/AppData/Local/Temp/7zEFF90.tmp/srcds-launcher",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/BIOInput.ini",
+		"/C/Users/Michael/Documents/JS/MuseJS/.git/COMMIT_EDITMSG",
+		"/C/Windows/Prey/prey.sh",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/clear.cfg",
+		"/I/DCIM/for.bat",
+		"/I/CS/users.csv",
+		"/I/CS/prizes.csv",
+		"/I/CS/transactions.csv",
+		"/C/Users/Michael/AppData/Local/Temp/7zOC565.tmp/_Serial_.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO1F47.tmp/setup.py",
+		"/C/Users/Michael/Documents/Python/bukkit/wilkins/main.py",
+		"/C/Users/Michael/Documents/Python/bukkit/wilkins/plugin.yml",
+		"/C/Users/Michael/Documents/Python/Olimpiad/2011/Q1.py",
+		"/C/Users/Michael/Documents/Python/users.csv",
+		"/C/Users/Michael/Documents/Python/prizes.csv",
+		"/C/Users/Michael/Documents/Python/fromlisa.py",
+		"/C/Users/Michael/AppData/Local/Temp/7zOC38D.tmp/readme.eng.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO7974.tmp/DSDT.dsl",
+		"/C/Users/Michael/AppData/Local/Temp/7zECDB.tmp/DSDT.dsl",
+		"/C/Users/Michael/Documents/Python/ashley.py",
+		"/D/System/Library/Extensions/VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext/Contents/Info.plist",
+		"/C/Users/Michael/AppData/Local/Temp/7zO9E4.tmp/rtoolkit.sh",
+		"/C/Users/Michael/AppData/Local/Temp/7zOB0E7.tmp/quickshot.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zOD1A3.tmp/rtoolkit.sh",
+		"/C/Users/Michael/AppData/Local/Temp/7zEE340.tmp/rtoolkit.sh",
+		"/C/Users/Michael/AppData/Local/Temp/7zO814F.tmp/gps.conf",
+		"/C/Users/Michael/AppData/Local/Temp/7zE9444.tmp/gps.conf",
+		"/C/Users/Michael/Documents/Python/bukget.py",
+		"/H/CS/project/bukget.py",
+		"/C/Users/Michael/Documents/Python/olimpiad2011Q1",
+		"/C/Users/Michael/AppData/Roaming/.spoutcraft/options.txt",
+		"/C/Users/Michael/Documents/Python/plugins/craftscripts/SUBMITTING.txt",
+		"/H/fromlisa.py",
+		"/C/Users/Michael/Documents/DSDTworkbench/mine.dsl",
+		"/C/Users/Michael/Documents/Python/final.py",
+		"/G/CS/final.py",
+		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/BIOGame.ini",
+		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/BIOGuiResources.ini",
+		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/BIOParty.ini",
+		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/MassEffectConfig.ini",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Michael/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Michael/Desktop/t.html",
+		"/C/Users/Michael/workspace/HelloWorld/src/HelloWorld.java",
+		"/C/Users/Michael/AppData/Local/Temp/7zO45CB.tmp/Report.htm",
+		"/C/Users/Michael/AppData/Local/Temp/7zOF3F0.tmp/minecraft-server-rc",
+		"/C/Users/Michael/AppData/Local/Temp/org.chameleon.Boot.plist",
+		"/E/Users/michael/DUMP.txt",
+		"/C/Users/Michael/Downloads/org.chameleon.Boot.plist",
+		"/E/Extra/org.chameleon.Boot.plist",
+		"/C/Program Files/Eclipse/eclipse.ini",
+		"/C/Users/Michael/AppData/Local/Temp/CodecDump.txt",
+		"/C/Users/Michael/Documents/DSDTEditor/Patches/EHCI ownership.txt",
+		"/C/NST/menu.lst",
+		"/C/Users/Michael/Downloads/alps/Setup.ini",
+		"/C/Users/Michael/AppData/Local/Temp/minecraftd",
+		"/C/Users/Michael/AppData/Local/Temp/minecraftd.service",
+		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt.dsl",
+		"/C/Users/Michael/AppData/Local/Temp/7zO04AF690C/ssdt_pr.dsl",
+		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_1.dsl",
+		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_2.dsl",
+		"/C/Users/Michael/AppData/Local/Temp/attachtty.c",
+		"/C/Users/Michael/AppData/Local/Temp/7zOB8E4.tmp/minecraft-server",
+		"/C/Users/Michael/AppData/Local/Temp/minecraft-server-rc",
+		"/C/Users/Michael/AppData/Local/Temp/minecraft-server",
+		"/C/Users/Michael/AppData/Local/Temp/7zEE0D0.tmp/minecraft-server",
+		"/E/NST/menu.lst",
+		"/C/Users/Michael/Documents/display.txt",
+		"/C/Users/Michael/Documents/Results.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO09B3BA6C/serials.txt",
+		"/M/Extra/DSDTrollback.dsl",
+		"/M/Library/Preferences/SystemConfiguration/com.apple.PowerManagement.plist",
+		"/C/Users/Michael/Documents/AutoMapServer.log",
+		"/E/blangsak/Dues.Ex.Human.Revolution-SKIDROW/skidrow.nfo",
+		"/C/Users/Michael/Pictures/minecraft-server-rc",
+		"/C/Users/Michael/Pictures/minecraft-server",
+		"/E/blangsak/Dues.Ex.Human.Revolution-SKIDROW/SKIDROW.ini",
+		"/C/Users/Michael/AppData/Local/Temp/7zO877EDC9F/minecraft-server-rc",
+		"/C/Users/Michael/AppData/Local/Temp/7zE877C1E20/minecraft-server-rc",
+		"/C/Users/Michael/AppData/Local/Temp/all information-1.log",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/heavyweapons.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/all.cfg",
+		"/C/Temp/dropbox_errorik6akd.txt",
+		"/C/Users/Michael/AppData/Roaming/Dropbox/bin/dropbox_errornf9m8d.txt",
+		"/C/Users/Michael/AppData/Roaming/Dropbox/bin/dropbox_erroryl9yy_.txt",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/scripts/items/items_game.txt",
+		"/C/Users/Michael/AppData/Local/Temp/items_game.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO4B51635A/20virtuous-package_manager",
+		"/C/Users/Michael/AppData/Local/Temp/7zO4B5DB63A/20run_once",
+		"/C/Users/Michael/AppData/Local/Temp/7zO4B530FEA/10optimize_performance",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/pyro.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/medic.cfg",
+		"/D/readme_eng.txt",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/demoman.cfg",
+		"/C/Users/Michael/AppData/Local/Temp/7zO03288201/E420.ioreg",
+		"/M/Extra/DSDT.dsl",
+		"/C/Users/Michael/AppData/Local/Temp/SEC414C.txt",
+		"/C/Users/Michael/AppData/Local/Temp/org.chameleon.Boot-1.plist",
+		"/M/Extra/DSDTaltEDID.dsl",
+		"/C/Users/Michael/AppData/Local/Temp/7zO8060A001/DisplayProductID-414c",
+		"/C/Users/Michael/AppData/Local/Temp/7zO0CD080AF/Info.plist",
+		"/C/Users/Michael/Documents/sukoku.html",
+		"/C/Users/Michael/Downloads/Double Click Me -Mommy RACHEL STEELE Download Page.html",
+		"/M/System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlatformPlugin.kext/Contents/Resources/MacBookPro8_3.plist",
+		"/C/Users/Michael/AppData/Local/Temp/7zO04543F64/MacBookPro8_1.plist",
+		"/M/System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlatformPlugin.kext/Contents/Resources/MacBookPro8_1.plist",
+		"/C/Users/Michael/AppData/Local/Temp/7zO0457F123/MacBookPro8_1.plist",
+		"/M/Extra/org.chameleon.Boot.plist",
+		"/C/Users/Michael/Documents/DSDTEditor-Linux-Mac-Win/dsdt.dsl",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/autoexec.cfg",
+		"/C/Users/Michael/AppData/Local/Temp/7zO0064CD95/DSDT.dsl",
+		"/C/Users/Michael/Documents/sped.py",
+		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_4.dsl",
+		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_3.dsl",
+		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/World/Text.ini",
+		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/World/World.ini",
+		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/Game.ini",
+		"/C/Users/Michael/Documents/Python/Pychess/PyChess.py",
+		"/C/Users/Michael/Documents/Spotify/Alarm/main.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			".csv",
+			"printBarchart",
+			"transactions",
+			"trans",
+			"db[",
+			"BCLP",
+			"CBLV",
+			"EHC2",
+			"EHC1",
+			"EHC2",
+			"models/player/items/soldier/hat",
+			"models/player/items/soldier/",
+			"nappers",
+			"hat",
+			"  ",
+			" ",
+			"ADP1",
+			"WLAN",
+			"\\_SB.PCI0.LPCB.EC",
+			"PSD",
+			"Scope (\\_SB",
+			"PR",
+			"BAT0",
+			"ARPT",
+			"CPU0",
+			"gfx0",
+			"device (gfx",
+			"work",
+			"playin",
+			"you g",
+			"worldedit",
+			"AAPL",
+			"0x02000000",
+			"GFX0",
+			",",
+			"GFX0",
+			"acpi000",
+			"opera",
+			"External (\\TNOT)",
+			"pieces",
+			"drivers",
+			"print",
+			"color",
+			"team",
+			"mat_queue_mode",
+			"piece[",
+			"self.pos = pos",
+			"def __init__(self, pos",
+			"def __init__(self, pos):",
+			"decodeNo",
+			"edgeDetect",
+			"position = []",
+			"moves(pos)",
+			"isLegal(move)",
+			"checkingLoop",
+			"colo",
+			"chessToCoord",
+			"checkLegal",
+			"192",
+			"VT",
+			"fa",
+			";",
+			"acpi",
+			"lid",
+			"wake",
+			"su"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"printChart",
+			", 0x",
+			", 0x\n",
+			",0x\n",
+			";\n",
+			"; \n; \n\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								191
+							]
+						],
+						"settings":
+						{
+							"auto_name": "4p2;p96Gnz06",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/javascripts/main.js",
+					"settings":
+					{
+						"buffer_size": 25,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22,
+								22
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/index.html",
+					"settings":
+					{
+						"buffer_size": 520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}
