@@ -19,15 +19,21 @@
 	<script src="js/libs/bootstrap.min.js"></script>
 	<script src="js/libs/underscore-min.js"></script>
 	<script src="js/libs/backbone-min.js"></script>
+	<script src="js/libs/backbone-relational-min.js"></script>
 	<script src="js/main.js"></script>
 
 	<script type="text/template" id="album-template">
 		<span>{{ name }}</span><span>{{ artist }}</span>
 	</script>
+<!--<script type="text/template" id="browser-template">
+		
+	</script> -->
 </head>
 <body>
 	<div id="content">
-		<div id="albumView"></div>
+		<div id="browserView">
+			<ul id="content-list"></ul>
+		</div>
 	</div>
 </body>
 </html>
