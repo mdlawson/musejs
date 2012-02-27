@@ -15,19 +15,16 @@
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="js/libs/bootstrap.min.js"></script>
-	<script src="js/libs/underscore-min.js"></script>
-	<script src="js/libs/backbone-min.js"></script>
-	<script src="js/libs/backbone-relational-min.js"></script>
-	<script src="js/main.js"></script>
-
-	<script type="text/template" id="album-template">
-		<span>{{ name }}</span><span>{{ artist }}</span>
+<!--	<script src="js/libs/bootstrap.js"></script> -->
+	<script src="js/libs/underscore.js"></script>
+	<script src="js/libs/backbone.js"></script>
+	<script src="js/libs/backbone-rel.js"></script>
+	<script type="text/template" id="albumTemplate">
+		<span><%=name%></span> <span><%=artist%></span>
 	</script>
-<!--<script type="text/template" id="browser-template">
-		
-	</script> -->
+	<script data-main="js/main" src="js/libs/require.js"></script>
 </head>
 <body>
 	<div id="content">
