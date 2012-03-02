@@ -3,9 +3,9 @@ define(['views/album'], function(AlbumView){
 		el: $("#content-list"),
 		initialize: function() {
 			console.log("albums view initialized");
-			albums.bind('add', this.addAlbum, this);
-			albums.bind('reset', this.render);
-			albums.add([
+			this.collection.bind('add', this.addAlbum, this);
+			this.collection.bind('reset', this.render);
+			this.collection.add([
 				{name: "test1", artist: "artist1"},
 				{name: "test2", artist: "artist2"}
 			]);
@@ -16,7 +16,7 @@ define(['views/album'], function(AlbumView){
 		},
 		render: function() {
 			$("#content-list").empty();
-			albums.each(this.addAlbum);
+			this.collection.each(this.addAlbum);
 			return this
 		},
 	});

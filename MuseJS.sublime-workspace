@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"B",
+				"BrowserView"
+			],
+			[
+				"Album",
+				"AlbumView"
+			],
+			[
+				"link",
+				"link	link - stylesheet"
+			],
+			[
 				"reward",
 				"rewardFile"
 			],
@@ -72,10 +84,6 @@
 				"a: <a href=\"mailto:\">"
 			],
 			[
-				"link",
-				"link: link - stylesheet"
-			],
-			[
 				"html",
 				"html: html"
 			]
@@ -84,33 +92,28 @@
 	"buffers":
 	[
 		{
-			"contents": "4p2;p96Gnz06\n\n\n IP: 188.227.180.199\n Subnet Mask: 255.255.255.192\n Gateway: 188.227.180.193\n\n DNS: 8.8.8.8 and 8.8.4.4\n\n> Radon: AshleyW as username\n> Radon: and\n> Radon: WilliamsonAshley6404\n",
+			"contents": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:+DisableExplicitGC -XX:MaxGCPauseMillis=50 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:+UseNUMA -XX:+UseBiasedLocking -XX:+DisableExplicitGC -XX:+UseStringCache -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+UseFastAccessorMethods -XX:+AggressiveOpts ",
 			"settings":
 			{
-				"buffer_size": 192,
+				"buffer_size": 394,
+				"line_ending": "Windows",
+				"name": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:"
+			}
+		},
+		{
+			"contents": "4p2;p96Gnz06\n\n\n IP: 188.227.180.199\n Subnet Mask: 255.255.255.192\n Gateway: 188.227.180.193\n\n DNS: 8.8.8.8 and 8.8.4.4\n\n> Radon: AshleyW as username\n> Radon: and\n> Radon: 6652J46a88238497q%3bMGa%%Y$cc5aEjp8YgFukrVA3kC7H!sEXAWt5Z%#*QKB\n",
+			"settings":
+			{
+				"buffer_size": 235,
 				"line_ending": "Windows",
 				"name": "4p2;p96Gnz06"
 			}
 		},
 		{
-			"contents": "$(function(){\n	window.\n})",
-			"file": "public/javascripts/main.js",
-			"file_size": 0,
-			"file_write_time": 129746473925992876,
-			"settings":
-			{
-				"buffer_size": 25,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<html>\n<head>\n	<script type=\"text/javascript\" src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/underscore.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/backbone.js\"></script>\n	<script type=\"text/javascript\" src=\"javascripts/main.js\"></script>\n	<link rel=\"stylesheet\" type=\"text/css\" href=\"stylesheets/main.css\">\n	<title>MuseJS</title>\n</head>\n<body>\n	<div id=\"content\">\n		<div id=\"albumsView\"></div>\n	</div>\n</body>\n</html>",
 			"file": "public/index.html",
-			"file_size": 0,
-			"file_write_time": 129746461325801322,
 			"settings":
 			{
-				"buffer_size": 520,
+				"buffer_size": 1239,
 				"line_ending": "Windows"
 			}
 		}
@@ -171,6 +174,35 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/main.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/browser.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/albums.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/album.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/libs/backbone-rel.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/libs/underscore.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zO3FD5.tmp/index.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zO1136.tmp/common.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/templates/album.html",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/tpl.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/models/album.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/collections/albums.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/browser",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/album",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/collections/albumlist.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zOB4CE.tmp/Tunes.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/libs/backbone-relational-min.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zOE0CA.tmp/install_color_finesse_3_win.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO9F76.tmp/disable_activation.cmd",
+		"/C/Users/Michael/AppData/Local/Temp/7zO8BBF.tmp/index.html",
+		"/C/Users/Michael/AppData/Local/Temp/7zO3EDD.tmp/install.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO3D53.tmp/Tunes.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zOA2B7.tmp/index.html",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/javascripts/main.js",
+		"/C/Users/Michael/AppData/Local/Temp/7zOA98A.tmp/bootstrap.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/less/style.less",
+		"/C/Users/Michael/AppData/Local/Temp/7zOF902.tmp/style.less",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/script.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/plugins.js",
 		"/I/CS/merits.py",
 		"/C/VAIOBIOS/R1031H4/platform.ini",
 		"/C/VAIOBIOS/R2048H4/platform.ini",
@@ -269,36 +301,7 @@
 		"/C/Users/Michael/AppData/Local/Temp/items_game.txt",
 		"/C/Users/Michael/AppData/Local/Temp/7zO4B51635A/20virtuous-package_manager",
 		"/C/Users/Michael/AppData/Local/Temp/7zO4B5DB63A/20run_once",
-		"/C/Users/Michael/AppData/Local/Temp/7zO4B530FEA/10optimize_performance",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/pyro.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/medic.cfg",
-		"/D/readme_eng.txt",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/demoman.cfg",
-		"/C/Users/Michael/AppData/Local/Temp/7zO03288201/E420.ioreg",
-		"/M/Extra/DSDT.dsl",
-		"/C/Users/Michael/AppData/Local/Temp/SEC414C.txt",
-		"/C/Users/Michael/AppData/Local/Temp/org.chameleon.Boot-1.plist",
-		"/M/Extra/DSDTaltEDID.dsl",
-		"/C/Users/Michael/AppData/Local/Temp/7zO8060A001/DisplayProductID-414c",
-		"/C/Users/Michael/AppData/Local/Temp/7zO0CD080AF/Info.plist",
-		"/C/Users/Michael/Documents/sukoku.html",
-		"/C/Users/Michael/Downloads/Double Click Me -Mommy RACHEL STEELE Download Page.html",
-		"/M/System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlatformPlugin.kext/Contents/Resources/MacBookPro8_3.plist",
-		"/C/Users/Michael/AppData/Local/Temp/7zO04543F64/MacBookPro8_1.plist",
-		"/M/System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlatformPlugin.kext/Contents/Resources/MacBookPro8_1.plist",
-		"/C/Users/Michael/AppData/Local/Temp/7zO0457F123/MacBookPro8_1.plist",
-		"/M/Extra/org.chameleon.Boot.plist",
-		"/C/Users/Michael/Documents/DSDTEditor-Linux-Mac-Win/dsdt.dsl",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/autoexec.cfg",
-		"/C/Users/Michael/AppData/Local/Temp/7zO0064CD95/DSDT.dsl",
-		"/C/Users/Michael/Documents/sped.py",
-		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_4.dsl",
-		"/C/Users/Michael/Documents/ACPIDUMPS/acpi_ssdt_3.dsl",
-		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/World/Text.ini",
-		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/World/World.ini",
-		"/C/Program Files (x86)/Steam/steamapps/common/nightsky/Game.ini",
-		"/C/Users/Michael/Documents/Python/Pychess/PyChess.py",
-		"/C/Users/Michael/Documents/Spotify/Alarm/main.js"
+		"/C/Users/Michael/AppData/Local/Temp/7zO4B530FEA/10optimize_performance"
 	],
 	"find":
 	{
@@ -316,6 +319,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"collection",
+			"new",
 			".csv",
 			"printBarchart",
 			"transactions",
@@ -405,22 +410,49 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"settings":
 					{
-						"buffer_size": 192,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								191
+								394,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "-XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								171
 							]
 						],
 						"settings":
@@ -435,53 +467,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "public/javascripts/main.js",
-					"settings":
-					{
-						"buffer_size": 25,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								22,
-								22
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
 					"file": "public/index.html",
 					"settings":
 					{
-						"buffer_size": 520,
+						"buffer_size": 1239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								339,
-								339
+								720,
+								720
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

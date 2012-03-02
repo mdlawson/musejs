@@ -1,8 +1,9 @@
-define(['views/albums'], function(AlbumsView){
+define(['views/albums', 'collections/albums'], function(AlbumsView , AlbumList){
 	var BrowserView = Backbone.View.extend({
 		el: $("#browserView"),
 		initialize: function() {
-			this.browser = new AlbumsView;
+			var albums = new AlbumList;
+			this.browser = new AlbumsView({collection : albums});
 		}
 	});
 	return BrowserView;
