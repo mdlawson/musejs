@@ -101,7 +101,7 @@
 			}
 		},
 		{
-			"contents": "4p2;p96Gnz06\n\n\n IP: 188.227.180.199\n Subnet Mask: 255.255.255.192\n Gateway: 188.227.180.193\n\n DNS: 8.8.8.8 and 8.8.4.4\n\n> Radon: AshleyW as username\n> Radon: and\n> Radon: 6652J46a88238497q%3bMGa%%Y$cc5aEjp8YgFukrVA3kC7H!sEXAWt5Z%#*QKB\n",
+			"file": "/C/Users/Michael/Documents/Keys/ashley.txt",
 			"settings":
 			{
 				"buffer_size": 235,
@@ -114,6 +114,30 @@
 			"settings":
 			{
 				"buffer_size": 1239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/views/browser.js",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1052,
 				"line_ending": "Windows"
 			}
 		}
@@ -174,18 +198,30 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Michael/Documents/JS/MuseJS/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js",
+		"/H/CS/merits.py",
+		"/C/Users/Michael/Documents/JS/MuseJS/routes/index.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/app.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/main.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/album.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/models/album.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/js/collections/albums.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/browser.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/albums.js",
-		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/album.js",
+		"/C/Users/Michael/Documents/JS/MuseJS/public/test/SpecRunner.html",
+		"/C/Users/Michael/Dropbox/Public/www",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/clear.cfg",
+		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/medic.cfg",
+		"/C/Users/Michael/AppData/Local/Temp/7zOB26D.tmp/readme.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zEA4B6.tmp/readme.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zE7166.tmp/readme.txt",
+		"/C/Users/Michael/AppData/Local/Temp/7zO5943.tmp/readme.txt",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/libs/backbone-rel.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/libs/underscore.js",
 		"/C/Users/Michael/AppData/Local/Temp/7zO3FD5.tmp/index.js",
 		"/C/Users/Michael/AppData/Local/Temp/7zO1136.tmp/common.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/templates/album.html",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/tpl.js",
-		"/C/Users/Michael/Documents/JS/MuseJS/public/js/models/album.js",
-		"/C/Users/Michael/Documents/JS/MuseJS/public/js/collections/albums.js",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/browser",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/views/album",
 		"/C/Users/Michael/Documents/JS/MuseJS/public/js/collections/albumlist.js",
@@ -214,7 +250,6 @@
 		"/C/Users/Michael/Documents/BioWare/Mass Effect/Config/BIOInput.ini",
 		"/C/Users/Michael/Documents/JS/MuseJS/.git/COMMIT_EDITMSG",
 		"/C/Windows/Prey/prey.sh",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/clear.cfg",
 		"/I/DCIM/for.bat",
 		"/I/CS/users.csv",
 		"/I/CS/prizes.csv",
@@ -290,18 +325,7 @@
 		"/C/Users/Michael/Pictures/minecraft-server",
 		"/E/blangsak/Dues.Ex.Human.Revolution-SKIDROW/SKIDROW.ini",
 		"/C/Users/Michael/AppData/Local/Temp/7zO877EDC9F/minecraft-server-rc",
-		"/C/Users/Michael/AppData/Local/Temp/7zE877C1E20/minecraft-server-rc",
-		"/C/Users/Michael/AppData/Local/Temp/all information-1.log",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/heavyweapons.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/cfg/all.cfg",
-		"/C/Temp/dropbox_errorik6akd.txt",
-		"/C/Users/Michael/AppData/Roaming/Dropbox/bin/dropbox_errornf9m8d.txt",
-		"/C/Users/Michael/AppData/Roaming/Dropbox/bin/dropbox_erroryl9yy_.txt",
-		"/C/Program Files (x86)/Steam/steamapps/liverpoollg/team fortress 2/tf/scripts/items/items_game.txt",
-		"/C/Users/Michael/AppData/Local/Temp/items_game.txt",
-		"/C/Users/Michael/AppData/Local/Temp/7zO4B51635A/20virtuous-package_manager",
-		"/C/Users/Michael/AppData/Local/Temp/7zO4B5DB63A/20run_once",
-		"/C/Users/Michael/AppData/Local/Temp/7zO4B530FEA/10optimize_performance"
+		"/C/Users/Michael/AppData/Local/Temp/7zE877C1E20/minecraft-server-rc"
 	],
 	"find":
 	{
@@ -319,6 +343,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"dates",
 			"collection",
 			"new",
 			".csv",
@@ -410,6 +435,7 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -423,8 +449,8 @@
 						"selection":
 						[
 							[
-								394,
-								0
+								37,
+								37
 							]
 						],
 						"settings":
@@ -442,6 +468,7 @@
 				},
 				{
 					"buffer": 1,
+					"file": "/C/Users/Michael/Documents/Keys/ashley.txt",
 					"settings":
 					{
 						"buffer_size": 235,
@@ -478,8 +505,8 @@
 						"selection":
 						[
 							[
-								720,
-								720
+								989,
+								989
 							]
 						],
 						"settings":
@@ -488,7 +515,87 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 108.0,
+						"translation.y": 198.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/main.js",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/views/browser.js",
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 1052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1052,
+								1052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -527,6 +634,10 @@
 		]
 	},
 	"menu_visible": false,
+	"output.exec":
+	{
+		"height": 116.0
+	},
 	"replace":
 	{
 		"height": 60.0
@@ -548,10 +659,10 @@
 		],
 		"width": 0.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 254.0,
 	"status_bar_visible": true
 }
