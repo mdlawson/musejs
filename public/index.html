@@ -12,23 +12,28 @@
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width">
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="js/libs/underscore.js"></script>
-	<script src="js/libs/backbone.js"></script>
-	<script src="/socket.io/socket.io.js"></script>
-	<script src="/socket.io/backbone.io.js"></script>
+	<script src="javascripts/lib/require.js"></script>
+	<script>
+	require({
+		baseUrl: 'javascripts'
+		paths: {
+			socketio: '/socket.io/socket.io.js'
+			backboneio: '/socket.io/backbone.io.js'
+		}
+		priority: ['lib/jquery']
+	}, ['main']);
+	</script>
 	<script type="text/template" id="albumTemplate">
 		<span><%=title%></span> <span><%=artist%></span>
 	</script>
-	<script src="/javascripts/app.js" ></script>
 </head>
 <body>
-	<div id="content">
+	<div id="wrapper">
+		<div id="playingView">
+		</div>
 		<div id="browserView">
 			<ul id="content-list"></ul>
 		</div>
 	</div>
-	<div id="logbook"></div>
 </body>
 </html>
