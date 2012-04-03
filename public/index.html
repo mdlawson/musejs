@@ -14,21 +14,30 @@
 	<meta name="viewport" content="width=device-width">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script src="js/libs/underscore.js"></script>
-	<script src="js/libs/backbone.js"></script>
+	<script src="javascripts/lib/underscore.js"></script>
+	<script src="javascripts/lib/backbone.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script src="/socket.io/backbone.io.js"></script>
 	<script type="text/template" id="albumTemplate">
 		<span><%=title%></span> <span><%=artist%></span>
 	</script>
-	<script src="/javascripts/app.js" ></script>
+	<script type="text/template" id="browserTemplate">
+		<h2><%=name%></h2><ul id="<%=name%>-list"></ul>
+	</script>
+	<script type="text/template" id="playerTemplate">
+		<ul id="playlist"></ul>
+		<div id="nowPlaying">
+			<div id="currentArt"></div>
+			<div id="currentInfo"></div>
+			<div id="controls"></div>
+		</div>
+	</script>
+	<script src="javascripts/app.js" ></script>
 </head>
 <body>
-	<div id="content">
-		<div id="browserView">
-			<ul id="content-list"></ul>
-		</div>
+	<div id="wrapper">
+		<div id="player"></div>
+		<div id="browserView"></div>
 	</div>
-	<div id="logbook"></div>
 </body>
 </html>

@@ -8,17 +8,22 @@ app = module.exports = express.createServer();
 # Configuration
 
 app.configure ->
+	app.set 'views', __dirname + '/views'
+	app.set 'view engine', 'jade'
 	app.use express.bodyParser()
 	app.use express.methodOverride()
 	app.use app.router
-	app.use (require 'express-coffee') {path: __dirname + '/public'}
+	app.use (require 'connect-assets') {buildDir: false, build: true, buildFilenamer: (filename, code) -> "#{filename}"}
 	app.use express.static __dirname + '/public'
 
 app.configure 'development', ->
 	app.use express.errorHandler { dumpExceptions: true, showStack: true }
 
 app.configure 'production', ->
-	app.use express.errorHandler()
+	app.use express.errorHandler { dumpExceptions: true, showStack: true }
+
+app.get '/', (req, res) ->
+	res.render 'index'
 
 app.listen 3000
 console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
@@ -32,4 +37,9 @@ backend.use (req,res, next) ->
 	next()
 
 backend.use bio.middleware.memoryStore()
-bio.listen app, { db: backend }
+io = bio.listen app, { db: backend }
+
+io.configure ->
+	io.set 'transports', ['websocket']
+	io.enable 'browser client minification'
+	io.enable 'browser client gzip'

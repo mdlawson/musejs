@@ -1,6 +1,24 @@
-!!!
+doctype 5
 html
   head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    title MuseJS
+    != css('bootstrap.min')
+    != css('style')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')
+    != js('lib/underscore')
+    != js('lib/backbone')
+    script(src='/socket.io/socket.io.js')
+    != js('lib/backboneio')
+    script(type="text/template", id="albumTemplate").
+      <span><%=title%></span> <span><%=artist%></span>
+    script(type="text/template", id="browserTemplate").
+      <h2><%=name%></h2><ul id="<%=name%>-list"></ul>
+    script(type="text/template", id="playerTemplate").
+      <ul id="playlist"></ul>
+      <div id="nowPlaying">
+        <div id="currentArt"></div>
+        <div id="currentInfo"></div>
+        <div id="controls"></div>
+      </div>
+    != js('app')
   body!= body
