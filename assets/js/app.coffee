@@ -1,5 +1,8 @@
+#= require lib/underscore
+#= require lib/backbone
+#= require lib/backboneio
+
 $(document).ready ->
-	console.log "main started"
 
 	class Album extends Backbone.Model
 
@@ -52,7 +55,7 @@ $(document).ready ->
 		render: ->
 			@$el.html @template
 
-	class App extends Backbone.View
+	class App extends Backbone.Router
 		initialize: ->
 			@browser = new BrowserView
 			@player = new Player

@@ -13,7 +13,7 @@ app.configure ->
 	app.use express.bodyParser()
 	app.use express.methodOverride()
 	app.use app.router
-	app.use (require 'connect-assets') {buildDir: false, build: true, buildFilenamer: (filename, code) -> "#{filename}"}
+	app.use (require 'connect-assets') {buildDir: false, build: true, minifyBuilds: false, buildFilenamer: (filename, code) -> "#{filename}"}
 	app.use express.static __dirname + '/public'
 
 app.configure 'development', ->
