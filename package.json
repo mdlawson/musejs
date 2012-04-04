@@ -1,13 +1,15 @@
 {
-    "name": "musejs"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.8"
-    , "jade": ">= 0.0.1"
-	, "backbone.io"
-	, "coffee-script"
-	, "express-coffee"
-	, "lastfm"
+  "name": "musejs",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1",
+    "coffee-script": "1.2.x",
+    "nib": "0.3.x",
+    "lastfm": "0.8.x",
+    "stylus": "0.24.x",
+    "connect-assets": "2.1.x",
+    "backbone.io": "0.2.x"
   }
 }

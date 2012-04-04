@@ -41,5 +41,6 @@ io = bio.listen app, { db: backend }
 
 io.configure ->
 	io.set 'transports', ['websocket']
+	io.set 'log level', 2 
 	io.enable 'browser client minification'
 	io.enable 'browser client gzip'
