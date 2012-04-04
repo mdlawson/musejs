@@ -5,7 +5,7 @@ bio = require 'backbone.io'
 
 app = module.exports = express.createServer();
 
-# Configuration
+# Express Configuration
 
 app.configure ->
 	app.set 'views', __dirname + '/views'
@@ -28,6 +28,8 @@ app.get '/', (req, res) ->
 app.listen 3000
 console.log "Express server listening on port %d in %s mode", app.address().port, app.settings.env
 
+# Backbone.io Configuration
+
 backend = bio.createBackend()
 
 backend.use (req,res, next) ->
@@ -38,6 +40,8 @@ backend.use (req,res, next) ->
 
 backend.use bio.middleware.memoryStore()
 io = bio.listen app, { db: backend }
+
+# Socket.io Configuration
 
 io.configure ->
 	io.set 'transports', ['websocket']
