@@ -1,7 +1,3 @@
-#= require lib/underscore
-#= require lib/backbone
-#= require lib/backboneio
-
 $(document).ready ->
 
 	class Album extends Backbone.Model
@@ -23,6 +19,8 @@ $(document).ready ->
 	class Albums extends Backbone.Collection
 		model: Album
 		backend: 'db'
+		initialize: ->
+    		@bindBackend();
 
 	class AlbumsView extends Backbone.View
 		initialize: ->

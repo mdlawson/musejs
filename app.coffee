@@ -2,6 +2,7 @@
 
 express = require 'express'
 bio = require 'backbone.io'
+assets = require 'connect-assets'
 
 app = module.exports = express.createServer();
 
@@ -13,7 +14,7 @@ app.configure ->
 	app.use express.bodyParser()
 	app.use express.methodOverride()
 	app.use app.router
-	app.use (require 'connect-assets') {buildDir: false, build: true, minifyBuilds: false, buildFilenamer: (filename, code) -> "#{filename}"}
+	app.use assets {buildDir: false, build: true, minifyBuilds: true, buildFilenamer: (filename, code) -> "#{filename}"}
 	app.use express.static __dirname + '/public'
 
 app.configure 'development', ->

@@ -1,4 +1,4 @@
-class BrowserView extends Backbone.View
+class Browser extends Backbone.View
 	el: $ "#browserView"
 	template: _.template $("#browserTemplate").html()
 	initialize: ->
