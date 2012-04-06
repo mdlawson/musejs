@@ -10,6 +10,7 @@
     "lastfm": "0.8.x",
     "stylus": "0.24.x",
     "connect-assets": "2.1.x",
-    "backbone.io": "0.2.x"
+    "backbone.io": "0.2.x",
+    "mongoose": "2.5.x"
   }
 }
