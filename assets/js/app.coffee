@@ -1,3 +1,5 @@
+#= require libs
+
 $(document).ready ->
 
 	class Album extends Backbone.Model
