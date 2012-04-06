@@ -8,7 +8,6 @@ mongoose = require 'mongoose'
 # mongoose configuration
 
 mongoose.connect 'mongodb://localhost/musejs'
-AlbumSchema = 
 Album = mongoose.model 'album', require './models/album'
 
 app = module.exports = express.createServer() # create the express server
