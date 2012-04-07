@@ -1,1 +1,1 @@
-class Album extends Backbone.Model
+class window.Album extends Backbone.Model

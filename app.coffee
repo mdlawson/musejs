@@ -20,7 +20,7 @@ app.configure ->
 	app.use express.bodyParser()
 	app.use express.methodOverride()
 	app.use app.router
-	app.use assets {buildDir: false, build: true, minifyBuilds: true, buildFilenamer: (filename, code) -> "#{filename}"} #build all out static assets for the client
+	app.use assets {buildDir: false, build: true, minifyBuilds: false, buildFilenamer: (filename, code) -> "#{filename}"} #build all out static assets for the client
 	app.use express.static __dirname + '/public' # serve static files from public
 
 app.configure 'development', ->

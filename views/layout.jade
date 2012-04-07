@@ -12,24 +12,8 @@ html
       h2 \<%=name%>
       \ <ul id="<%=name%>-list"></ul>
     script(type="text/template", id="playerTemplate")
-      #playlist
-        ul
-          li foo 
-          li bar
-          li foobar
-          li baz
-          li bang
-          li poof
-      #nowPlaying
-        img.artcurrent(src="http://placehold.it/200x200")
-        #currentinfo
-          .progress
-            .bar
-          span.title A Song About Testing
-          span.artist The Testers
-        #controls
-          span.play
-          span.prev
-          span.next
+      span.title \<%=title%>
+      br
+      span.artist \<%=artist%>
     != js('app')
   body!= body

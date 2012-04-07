@@ -2,6 +2,22 @@
 
 $(document).ready ->
 
+	class Track extends Backbone.Model
+
+	class TrackView extends Backbone.View
+		tagName: "li"
+		template: _.template $("#albumTemplate").html()
+		initialize: ->
+			_.bindAll @,'render'
+			@model.bind 'change', @render
+			@model.bind 'remove', @remove, @
+		render: ->
+			@$el.html @template @model.toJSON()
+			return @
+		remove: ->
+			@$el.remove()
+
+
 	class Album extends Backbone.Model
 
 	class AlbumView extends Backbone.View
@@ -22,21 +38,21 @@ $(document).ready ->
 		model: Album
 		backend: 'db'
 		initialize: ->
-    		@bindBackend();
+			@bindBackend();
 
 	class AlbumsView extends Backbone.View
 		initialize: ->
 			_.bindAll @, 'render'
-			@collection.bind 'add', @addAlbum, @
+			@collection.bind 'add', @renderAlbum, @
 			@collection.bind 'reset', @render
-		addAlbum: (album) ->
+		renderAlbum: (album) ->
 			view = new AlbumView {model: album}
 			$("#albums-list").append view.render().el
 		render: ->
-			@collection.each @addAlbum
+			@collection.each @renderAlbum
 			return @
 
-	class BrowserView extends Backbone.View
+	class Browser extends Backbone.View
 		el: $ "#browserView"
 		template: _.template $("#browserTemplate").html()
 		initialize: ->
@@ -51,13 +67,31 @@ $(document).ready ->
 		el: $ "#player"
 		template: _.template $("#playerTemplate").html()
 		initialize: ->
+			@playlist = new PlaylistView {el: "#player .tracks"}
 			@render()
 		render: ->
-			@$el.html @template
+			@data = if (@playlist.collection.at 0)? then (@playlist.collection.at 0).toJSON() else {title:"",artist:""}
+			$("#currentinfo").html @template @data
+	
+	class Playlist extends Backbone.Collection
+		model: Track
+
+	class PlaylistView extends Backbone.View
+		initialize: ->
+			@collection = new Playlist
+			_.bindAll @, 'render'
+			@collection.bind 'add', @renderTrack, @
+			@collection.bind 'reset', @render
+		renderTrack: (track) ->
+			view = new TrackView {model: track}
+			$(@el).append view.render().el
+		render: ->
+			@collection.each @renderTrack
+			return @
 
 	class App extends Backbone.Router
 		initialize: ->
-			@browser = new BrowserView
+			@browser = new Browser
 			@player = new Player
 	
 	window.app = new App

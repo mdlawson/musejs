@@ -1,11 +1,13 @@
-class AlbumsView extends Backbone.View
+class window.AlbumsView extends Backbone.View
 	initialize: ->
+		@collection = new Albums
+		@collection.fetch()
 		_.bindAll @, 'render'
-		@collection.bind 'add', @addAlbum, @
+		@collection.bind 'add', @renderAlbum, @
 		@collection.bind 'reset', @render
-	addAlbum: (album) ->
+	renderAlbum: (album) ->
 		view = new AlbumView {model: album}
 		$("#albums-list").append view.render().el
 	render: ->
-		@collection.each @addAlbum
+		@collection.each @renderAlbum
 		return @

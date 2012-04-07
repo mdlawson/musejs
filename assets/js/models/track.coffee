@@ -1,0 +1,1 @@
+class window.Track extends Backbone.Model

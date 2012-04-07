@@ -1,6 +1,5 @@
-class window.AlbumView extends Backbone.View
+class window.TrackView extends Backbone.View
 	tagName: "li"
-	className: "album"
 	template: _.template $("#albumTemplate").html()
 	initialize: ->
 		_.bindAll @,'render'
