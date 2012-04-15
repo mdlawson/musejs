@@ -1,4 +1,5 @@
 #= require libs
+#= require uploader
 
 $(document).ready ->
 

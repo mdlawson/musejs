@@ -4,6 +4,8 @@ express = require 'express'
 bio = require 'backbone.io'
 assets = require 'connect-assets'
 mongoose = require 'mongoose'
+meta = require 'musicmetadata'
+fs = require 'fs'
 
 # mongoose configuration
 
@@ -30,6 +32,12 @@ app.configure 'production', ->
 	app.use express.errorHandler { dumpExceptions: false, showStack: false } # not in production
 
 app.get '/', (req, res) -> # when the index is requested, render the view with jade
+	res.render 'index'
+
+app.post '/upload', (req, res, next) -> 
+	parser = new meta fs.createReadStream req.files.track.path
+	parser.on 'metadata', (result) ->
+		console.log(result)
 	res.render 'index'
 
 app.listen 3000 # listen on port 3000
