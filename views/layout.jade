@@ -15,5 +15,12 @@ html
       span.title \<%=title%>
       br
       span.artist \<%=artist%>
+    script(type="text/template", id="uploadTemplate")
+      #fileUpload.modal.hide.fade
+        .modal-header
+          h3 Add tracks
+        ul.modal-body
+        .modal-footer
+          a#uploadButton.btn.btn-primary Upload
     != js('app')
   body!= body

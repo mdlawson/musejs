@@ -18,6 +18,8 @@ $(document).ready ->
 		remove: ->
 			@$el.remove()
 
+	class Tracks extends Backbone.Collection
+		model: Track
 
 	class Album extends Backbone.Model
 
