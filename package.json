@@ -1,16 +1,42 @@
 {
-  "name": "musejs",
-  "version": "0.0.1",
-  "private": true,
-  "dependencies": {
-    "express": "2.5.8",
-    "jade": ">= 0.0.1",
-    "coffee-script": "1.2.x",
-    "nib": "0.3.x",
-    "lastfm": "0.8.x",
-    "stylus": "0.24.x",
-    "connect-assets": "2.1.x",
-    "backbone.io": "0.2.x",
-    "mongoose": "2.5.x"
-  }
+    "author": "Michael Lawson",
+    "name": "MuseJS",
+    "description": "A music server/client built with javascript",
+    "version": "0.0.1",
+    "homepage": "",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "engines": {
+        "node": "~0.6.10"
+    },
+    "scripts": {
+        "start": "brunch watch --server"
+    },
+    "dependencies": {
+        "express": "2.5.8",
+        "jade": ">= 0.0.1",
+        "coffee-script": "1.2.x",
+
+        "mongoose": "2.5.x",
+
+        "javascript-brunch": "1.0.x || 1.1.x",
+        "coffee-script-brunch": "1.0.x || 1.1.x",
+
+        "css-brunch": "1.0.x || 1.1.x",
+        "stylus-brunch": "1.0.x || 1.1.x",
+
+        "hoganjs-brunch": "1.0.x || 1.1.x",
+
+        "uglify-js-brunch": "1.0.x || 1.1.x",
+        "clean-css-brunch": "1.0.x || 1.1.x",
+
+        "lastfm": "0.8.x",
+        "backbone.io": "0.2.x",
+        "musicmetadata": "0.1.x"
+    },
+    "devDependencies": {
+        "mocha": "0.14.0"
+    }
 }
