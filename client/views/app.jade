@@ -1,0 +1,41 @@
+!!! 5
+html(lang="en")
+  head
+    script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js")
+    script(type="text/template", id="albumTemplate")
+      span \<%=title%> 
+      span \<%=artist%>
+    script(type="text/template", id="browserTemplate")
+      h2 \<%=name%>
+      \ <ul id="<%=name%>-list"></ul>
+    script(type="text/template", id="playerTemplate")
+      span.title \<%=title%>
+      br
+      span.artist \<%=artist%>
+    script(type="text/template", id="uploadTemplate")
+      #fileUpload.modal.hide.fade
+        .modal-header
+          h3 Add tracks
+        ul.modal-body
+        .modal-footer
+          a#uploadButton.btn.btn-primary Upload
+    != SocketStream
+    meta(charset="utf-8")
+    title MuseJS
+  body
+    #container.container-fluid
+      #app.row-fluid
+        #player
+          #playlist
+            h6 Playlist
+            ul.tracks
+          #nowPlaying
+            img.artcurrent(src="http://placehold.it/250x250")
+            .progress
+              .bar
+            #currentinfo
+          #controls
+            button.prev.btn.icon-backward
+            button.play.btn.icon-play 
+            button.next.btn.icon-forward
+        #browserView
