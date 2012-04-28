@@ -25,6 +25,8 @@ ss.client.formatters.add require 'ss-coffee'
 ss.client.formatters.add require 'ss-stylus'
 ss.client.formatters.add require 'ss-jade'
 ss.client.templateEngine.use require 'ss-jade'
+
+ss.responders.add require './server/backbone/server/index'
 #ss.client.packAssets()
 
 # Express Configuration

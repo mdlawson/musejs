@@ -25,6 +25,6 @@ fileDisplay = (file, template) ->
 	$('#fileUpload .modal-body').append template { filename: file.name }
 	return
 filesUpload = (files) ->
-	for file in files
-
+#	for file in files
+#
 	return
