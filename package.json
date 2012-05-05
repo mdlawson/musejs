@@ -20,7 +20,7 @@
 		"socketstream": "git://github.com/CyberWalrus/socketstream.git",
 		"ss-coffee": "0.1.x",
 		"ss-stylus": "0.1.x",
-		"ss-jade": "git://github.com/cyberwalrus/ss-jade.git",
+		"ss-jade": "git://github.com/CyberWalrus/ss-jade.git",
 		
         "lastfm": "0.8.x",
         "musicmetadata": "0.1.x"
