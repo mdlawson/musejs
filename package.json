@@ -17,7 +17,7 @@
 		
         "mongoose": "2.5.x",
 
-		"socketstream": "git://github.com/CyberWalrus/socketstream.git",
+		"socketstream": "git://github.com/CyberWalrus/socketstream.git#indev",
 		"ss-coffee": "0.1.x",
 		"ss-stylus": "0.1.x",
 		"ss-jade": "git://github.com/CyberWalrus/ss-jade.git",
